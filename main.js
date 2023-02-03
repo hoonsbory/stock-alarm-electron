@@ -2,6 +2,7 @@ const axios = require('axios');
 const audio = document.getElementById('audio');
 const resultElem = document.getElementById('result');
 const date = document.getElementById('date');
+console.log(123);
 const getData = async () => {
   try {
     const data = await axios.get(
