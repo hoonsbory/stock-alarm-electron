@@ -5,7 +5,6 @@ const date = document.getElementById('date');
 console.log(123);
 const getData = async () => {
   try {
-    console.log(123);
     const data = await axios.get(
       'https://data.sec.gov/submissions/CIK0001418100.json',
     );
